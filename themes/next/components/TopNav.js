@@ -130,7 +130,7 @@ const TopNav = props => {
           </div>
         </div>
       </div>
-
+      TGC Survival
       <Collapse type='vertical' isOpen={isOpen} className='shadow-xl'>
         <div className='bg-white py-1 px-5'>
           <MenuButtonGroup {...props} from='top'/>
