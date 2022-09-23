@@ -1,10 +1,10 @@
                                                                         // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: '繁花漫画', // 作者
-  BIO: 'Flower Forest', // 作者简介
-  LINK: 'https://fanhua.vercel.app/', // 网站地址
-  KEYWORDS: '小说, 漫画, 免费, 繁花漫画', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: '4218d3d5d93647b7a6c26213f4021215', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  AUTHOR: 'MuLiChFe', // 作者
+  BIO: 'TGCS', // 作者简介
+  LINK: 'https://tgcs.vercel.app/', // 网站地址
+  KEYWORDS: '', // 网站关键词 英文逗号隔开
+  NOTION_PAGE_ID: '09710b8e449d41979875baa6818977f4', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -41,7 +41,7 @@ const BLOG = {
   PREVIEW_TAG_COUNT: 16, // 首页最多展示的标签数量，0为不限制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'xbcxg009@163.com',
+  CONTACT_EMAIL: '',
   CONTACT_WEIBO: '',
   CONTACT_TWITTER: '',
   CONTACT_GITHUB: '',
@@ -128,9 +128,9 @@ const BLOG = {
 
   // 无关紧要的配置
   AVATAR: '/avatar.png', // 作者头像，被notion中的ICON覆盖。如果没有ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || '繁花漫画', // 站点标题 ，被notion中的页面标题覆盖
+  TITLE: process.env.NEXT_PUBLIC_TITLE || 'TGCS', // 站点标题 ，被notion中的页面标题覆盖
   DESCRIPTION:
-    process.env.NEXT_PUBLIC_DESCRIPTION || '一个长期免费的漫画小说网站', // 站点描述，被notion中的页面描述覆盖
+    process.env.NEXT_PUBLIC_DESCRIPTION || '', // 站点描述，被notion中的页面描述覆盖
 
   isProd: process.env.VERCEL_ENV === 'production', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
   VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
