@@ -1,7 +1,7 @@
 const CONFIG_NEXT = {
 
   HOME_BANNER: true, // 首页是否显示大图及标语 [true,false]
-  HOME_BANNER_Strings: ['Welcome to the most Diverse Server', 'Welcome to the most Creative Server', 'Welcome to the Your Server'], // 首页大图标语文字
+  HOME_BANNER_Strings: ['Welcome to the most Diverse Server', 'Welcome to the most Creative Server', 'Welcome to Your Server'], // 首页大图标语文字
 
   NAV_TYPE: 'autoCollapse', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
 
