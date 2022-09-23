@@ -103,7 +103,6 @@ export default function Header(props) {
         <div className='text-4xl md:text-5xl text-white shadow-text'>{siteInfo?.title}</div>
         <div className='mt-2 h-12 items-center text-center shadow-text text-white text-lg'>
           <span id='typed'/>
-             Server
         </div>
       </div>
       <div
