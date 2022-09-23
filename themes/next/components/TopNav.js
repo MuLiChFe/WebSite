@@ -123,6 +123,7 @@ const TopNav = props => {
           { isOpen ? <i className='fas fa-times'/> : <i className='fas fa-bars'/> }
           </div>
         </div>
+        TGC Survival
         {/* 右侧功能 */}
         <div className='mr-1 justify-end items-center font-serif'>
           <div onClick={() => { searchDrawer?.current?.show() }} className='mr-1 flex justify-end items-center text-sm space-x-4 font-serif dark:text-gray-200'>
@@ -130,7 +131,6 @@ const TopNav = props => {
           </div>
         </div>
       </div>
-      TGC Survival
       <Collapse type='vertical' isOpen={isOpen} className='shadow-xl'>
         <div className='bg-white py-1 px-5'>
           <MenuButtonGroup {...props} from='top'/>
