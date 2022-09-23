@@ -1,6 +1,6 @@
                                                                         // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: 'TGC Survival', // 作者
+  AUTHOR: 'TGCS', // 作者
   BIO: 'TGCSurvival.minehut.gg', // 作者简介
   LINK: 'https://tgc.vercel.app/', // 网站地址
   KEYWORDS: '', // 网站关键词 英文逗号隔开
