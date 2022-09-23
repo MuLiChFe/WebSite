@@ -1,7 +1,7 @@
 const CONFIG_NEXT = {
 
   HOME_BANNER: true, // 首页是否显示大图及标语 [true,false]
-  HOME_BANNER_Strings: ['本站永远保持 - 全球资源', '本站永远保持 - 全天更新', '本站永远保持 - 干净简洁', '本站永远保持 - 无广告', '欢迎来到你的漫画中心'], // 首页大图标语文字
+  HOME_BANNER_Strings: ['Welcome to the most Diverse', 'Welcome to the most Creative', 'Welcome to the Your'], // 首页大图标语文字
 
   NAV_TYPE: 'autoCollapse', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
 
